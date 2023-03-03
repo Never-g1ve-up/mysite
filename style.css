@@ -1,0 +1,116 @@
+body {
+background-attachment: fixed;
+font-family: Andale Mono, monospace;
+color: rgb(7, 7, 7);
+background-color: rgb(181,181,181);
+}
+
+.h{
+    font-weight:bold;
+    font-size: 26px;
+    font-family: Arial;
+    color:rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+h2{
+text-align: center;    
+}
+
+.map{
+line-height: 35px;
+text-align: left;
+font-family: Georgia, serif;
+position: sticky;
+top: 10px;
+font-size: 20px;
+float: left;
+border: 1px solid rgb(136, 136, 136);
+padding: 1.5%;
+margin-left: 10px ;
+box-shadow: 5px 5px 20px rgb(65, 65, 65);
+border-radius: 25px;
+background-image: url(stuff/phon3.png);
+}
+
+.map ul{
+list-style: none;  
+margin:0;
+padding:0;
+}
+
+.text{
+font-weight:normal;
+text-indent: 30px;
+text-align: justify;
+padding: 25px;
+margin: 0 40px 0 270px;
+font-size: 22px;
+line-height: 35px;
+background-image: url(stuff/phon3.png);
+border-radius: 25px;
+border: 1px solid rgb(136, 136, 136);
+box-shadow: 5px 5px 20px rgb(65, 65, 65);
+}
+
+.copy{
+font-weight:bolder;
+background-color: rgb(5, 5, 5);
+text-align: right;
+margin:20px 44% 20px 44%;
+padding:15px;
+border-radius: 15px;
+}
+
+.copy a{
+color:white;   
+}
+
+a{
+text-decoration: none;
+color: rgb(7, 7, 7);
+}
+
+a:hover {
+color: rgb(218, 221, 39);
+}
+
+.icon {
+float:left;
+position: absolute;
+left: 874px;
+top: 19px
+}
+
+.iconSA {
+float:left;
+position: absolute;
+left: 812px;
+top: 25px
+}
+
+.iconm {
+float:left;
+position: absolute;
+left: 835px;
+top: 25px
+}
+
+.icong {
+float:left;
+position: absolute;
+left: 872px;
+top: 23px
+}
+
+.icona {
+float:left;
+position: absolute;
+left: 864px;
+top: 24px
+}
+
+.frame {
+margin:30px 44% 20px 44%;
+}
